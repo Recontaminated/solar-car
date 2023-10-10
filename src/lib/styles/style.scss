@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+:root{
+  //--content-width: 1200px;
+  --content-width: 1160px;
+  --font-family-base: Raleway, sans-serif;
+  --font-family-monospace: "inter", monospace;
+  --font-family-heading: "inter", -sans-serif;
+  --font-family-nav: "apple-system", sans-serif;
+  --background-color: #181818;
+  --gray1: #e6e6e6;
+  --fontcolorbase: var(--gray1);
+  --organizationgray: #2c2c2c;
+  --accentcolor: #6083ff;
+}
+body{
+  font-family: Raleway, sans-serif;
+}
