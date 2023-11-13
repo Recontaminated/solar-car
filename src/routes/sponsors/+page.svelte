@@ -65,10 +65,10 @@
 </div>
 <style>
     .main{
-        background-color:#2c2c2c;
+        background-color:#f6f6f6;
         height: 100%;
         width: 100%;
-        color: white;
+        color: black;
     }
     .header-cont header {
         position: inherit !important;
@@ -102,10 +102,11 @@
     .logo  {
         width: 50%;
     }
-    .logo img{
+    .logo-plat img{
         width: 100%;
         height: 100%;
         object-fit: contain;
+
     }
     .description{
     /*   make it inline with */
