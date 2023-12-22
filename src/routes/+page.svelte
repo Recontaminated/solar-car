@@ -8,8 +8,7 @@
     <div class="main-section">
         <FadeIn>
         <div class="hero">
-            <h1>POLY</h1>
-            <h1>ENGINEERING</h1>
+            <h1>POLY ENGINEERING</h1>
         </div>
             <div id="learn-more">
                 <a href="#learn-more">Learn More</a>
@@ -34,6 +33,15 @@
     </div>
 
 </div>
+<!--<div class="competition">-->
+<!--    <div class="comp-info">-->
+
+<!--        <h1 id="comp-title">Texas Solar Car Challenge</h1>-->
+<!--        <p id="comp-text"> Founded in 2020. The Poly Engineering Club is student run, fueled by its passion for creating sustainable energy solutions. We provide unique opportunities for students to engage with hands-on engineering while striving towards a more sustainable future. Last year, we raced in the Texas Solar Car Challenge and placed 2nd in the classic division. This year, we hope to use our past learnings and apply them as we build a new car to race in the advanced division. </p>-->
+<!--        <img id = "texas_img" src="https://cdn.discordapp.com/attachments/1149899922838130809/1175568975661379594/fortworth.png?ex=656bb4ec&is=65593fec&hm=d9440b0e3d70627f942fd1473064ca2257fc04ef93249a9255694e01632cf117&">-->
+<!--    </div>-->
+
+<!--</div>-->
 
 
 <style lang="scss">
@@ -45,10 +53,10 @@
     height: 100vh;
     //-webkit-background-size: cover;
     //background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.duckarmada.com/rXRXS0YOwv1P/direct.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.duckarmada.com/dR2VFyjlFtMm/direct.png");
     //move the background image left
 
-    background-size: cover;
+    background-size: cover  ;
     background-position: center center;
     background-color: var(--background-color)
   }
@@ -60,6 +68,7 @@
 
 
   }
+
 
   .buttons {
 
@@ -126,6 +135,33 @@
   #info-text{
     margin-top: 20px;
     line-height: 2;
+  }
+
+  .competition{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #comp-title{
+    font-size: 40px;
+  }
+  .comp-info{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    width: 50%;
+  }
+  #comp-text{
+    margin-top: 20px;
+    line-height: 2;
+    width: 50%;
+  }
+  #texas_img{
+    width: 50%;
   }
 
   #learn-more {

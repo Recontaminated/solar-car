@@ -14,41 +14,9 @@
 
     <div class="logos">
         <div class="tier1">
-            <h3>Platinum Support</h3>
-            <div class="company">
-                <div class="logo">
-                    <!--            logo goes in this div-->
-                    <img src="https://images.duckarmada.com/LtJ2xWhuJqA6/direct.png">
-                </div>
-                <div class="description">
-                    <!--            company name goes here-->
-                    <span>East West Bank is a full-service commercial bank that provides a wide array of services such as retail banking, commercial lending, treasury, residential lending, loans for commercial, construction, and residential real estate projects, and the financing of international trade. </span>
-                </div>
-            </div>
-            <h3>Silver Support</h3>
-            <div class="company">
-                <div class="logo">
-                    <!--            logo goes in this div-->
-                    <img src="https://images.duckarmada.com/IHJlh2ebmAcU/direct.png">
-                </div>
-                <div class="description">
-                    <!--            company name goes here-->
-                    <span>East West Bank is a full-service commercial bank that provides a wide array of services such as retail banking, commercial lending, treasury, residential lending, loans for commercial, construction, and residential real estate projects, and the financing of international trade. </span>
-                </div>
-            </div>
-            <div class="company">
-                <div class="logo">
-                    <!--            logo goes in this div-->
-                    <img src="https://images.duckarmada.com/YTRO4bdQ0p8X/direct.png">
-                </div>
-                <div class="description">
-                    <!--            company name goes here-->
-                    <span>East West Bank is a full-service commercial bank that provides a wide array of services such as retail banking, commercial lending, treasury, residential lending, loans for commercial, construction, and residential real estate projects, and the financing of international trade. </span>
-                </div>
-            </div>
-
-            <div class="company">
-                <div class="logo">
+            <h3>Premier Sponsor</h3>
+            <div class="company-platinum">
+                <div class="logo-plat">
                     <!--            logo goes in this div-->
                     <img src="https://images.duckarmada.com/31zBPlPfBtMh/direct.png">
                 </div>
@@ -57,6 +25,31 @@
                     <span>East West Bank is a full-service commercial bank that provides a wide array of services such as retail banking, commercial lending, treasury, residential lending, loans for commercial, construction, and residential real estate projects, and the financing of international trade. </span>
                 </div>
             </div>
+            <div class="company-platinum">
+                <div class="logo-plat">
+                    <!--            logo goes in this div-->
+                    <img src="https://images.duckarmada.com/LtJ2xWhuJqA6/direct.png">
+                </div>
+                <div class="description">
+                    <!--            company name goes here-->
+                    <span>East West Bank is a full-service commercial bank that provides a wide array of services such as retail banking, commercial lending, treasury, residential lending, loans for commercial, construction, and residential real estate projects, and the financing of international trade. </span>
+                </div>
+            </div>
+            <h3>Standard Sponsor</h3>
+            <div class="silvers">
+                <div class="company-silver">
+                        <!--            logo goes in this div-->
+                        <img src="https://images.duckarmada.com/IHJlh2ebmAcU/direct.png">
+
+                </div>
+                <div class="company-silver">
+                        <!--            logo goes in this div-->
+                        <img src="https://images.duckarmada.com/YTRO4bdQ0p8X/direct.png">
+                </div>
+            </div>
+
+
+
         </div>
 
     </div>
@@ -65,7 +58,7 @@
 </div>
 <style>
     .main{
-        background-color:#f6f6f6;
+        background-image: url("");
         height: 100%;
         width: 100%;
         color: black;
@@ -74,7 +67,8 @@
         position: inherit !important;
     }
     .main-cont{
-        padding-top: 90px;
+        padding-top: 100px;
+        padding-bottom: 20px;
     }
     h1 {
         line-height: 34px;
@@ -85,7 +79,7 @@
         width: 100%;
 
     }
-    .company{
+    .company-platinum{
         width:80%;
         max-width: 1100px;
         text-align: center;
@@ -99,7 +93,25 @@
         margin-bottom:20px;
 
     }
-    .logo  {
+    .company-silver{
+        /*width:100%;*/
+        /*max-width: 500px;*/
+
+        text-align: center;
+
+        /*    position elements inline*/
+        margin-left: 40px;
+        height: 90px
+    }
+    .company-silver img {
+        height: 90px;
+    }
+    .silvers{
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+    }
+    .logo-plat  {
         width: 50%;
     }
     .logo-plat img{
@@ -134,6 +146,8 @@
     }
     h4{
         text-align:center;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
 
 
