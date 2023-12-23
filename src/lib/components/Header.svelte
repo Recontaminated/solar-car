@@ -14,7 +14,7 @@
 
                         <li><a href="/" class="">Home</a></li>
                         <li><a href="/blog" class="">Blog</a></li>
-                        <li><a href="/projects" class="">Car</a></li>
+                        <li><a href="/car" class="">Car</a></li>
                         <li><a href="/sponsors" class="">Sponsors</a></li>
                     </ul>
                 </nav>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="290bafeb-943d-42a2-95da-c814b2d7c75d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/15mpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/+page.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+error.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/sponsors/+page.svelte.save" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/1day062.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sponsors/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/sponsors/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
