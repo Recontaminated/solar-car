@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290bafeb-943d-42a2-95da-c814b2d7c75d" name="Changes" comment="before big ass migrate">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/sponsors/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/sponsors/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +57,7 @@
       <workItem from="1703338924716" duration="149000" />
       <workItem from="1703339094008" duration="12000" />
       <workItem from="1703557547424" duration="294000" />
+      <workItem from="1703558167271" duration="2894000" />
     </task>
     <servers />
   </component>
