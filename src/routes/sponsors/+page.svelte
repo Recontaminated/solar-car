@@ -16,8 +16,8 @@
                 </p>
             </div>
             <!-- Premier Sponsors -->
-            <div class="grid grid-cols-1 md:grid-cols-2 divide-x gap-4 sm:overflow-auto">
-
+<!--            <div class="grid grid-cols-1 md:grid-cols-2 divide-x gap-4 sm:overflow-auto">-->
+                <div class="grid grid-rows-1">
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex items-center justify-center p-4 sm:p-5">
                         <div class="flex flex-col space-y-1.5 p-4 w-1/2">
                             <img src="https://images.duckarmada.com/31zBPlPfBtMh/direct.png" width="800"
