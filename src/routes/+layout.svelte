@@ -12,7 +12,7 @@
 <style>
 
   :root{
-    --content-width: 1200px;
+    /*--content-width: 1200px;*/
     --content-width: 1160px;
     --font-family-base: "Inter", -sans-serif;
     --font-family-monospace: "Inter", monospace;

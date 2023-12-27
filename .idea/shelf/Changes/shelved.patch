@@ -1,0 +1,39 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"290bafeb-943d-42a2-95da-c814b2d7c75d\" name=\"Changes\" comment=\"before big ass migrate\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/routes/blog/+page.server.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/routes/blog/+page.server.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/routes/blog/[slug]/+page.server.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/routes/blog/[slug]/+page.server.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/svelte.config.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/svelte.config.js\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 4\n}</component>\n  <component name=\"ProjectId\" id=\"2ZvLSZ31tA3mkZ3XP62XI93EuxI\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"autoscrollToSource\" value=\"true\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\n    &quot;ts.external.directory.path&quot;: &quot;/home/jeremy/Documents/GitHub/solar-car/node_modules/typescript/lib&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"290bafeb-943d-42a2-95da-c814b2d7c75d\" name=\"Changes\" comment=\"fix merge bs\" />\n      <created>1703297610181</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1703297610181</updated>\n      <workItem from=\"1703297611833\" duration=\"301000\" />\n      <workItem from=\"1703297933940\" duration=\"179000\" />\n      <workItem from=\"1703328355757\" duration=\"1465000\" />\n      <workItem from=\"1703338924716\" duration=\"149000\" />\n      <workItem from=\"1703339094008\" duration=\"12000\" />\n      <workItem from=\"1703557547424\" duration=\"294000\" />\n      <workItem from=\"1703558167271\" duration=\"4249000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"fix merge bs\" />\n    <MESSAGE value=\"before big ass migrate\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"before big ass migrate\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8a57a45d1266343b58af8d581d11d1b11feaaa8e)
++++ b/.idea/workspace.xml	(date 1703683988557)
+@@ -6,9 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="290bafeb-943d-42a2-95da-c814b2d7c75d" name="Changes" comment="before big ass migrate">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/+page.server.ts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.server.ts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -58,8 +55,17 @@
+       <workItem from="1703338924716" duration="149000" />
+       <workItem from="1703339094008" duration="12000" />
+       <workItem from="1703557547424" duration="294000" />
+-      <workItem from="1703558167271" duration="4249000" />
++      <workItem from="1703558167271" duration="4997000" />
+     </task>
++    <task id="LOCAL-00001" summary="before big ass migrate">
++      <option name="closed" value="true" />
++      <created>1703683700337</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1703683700337</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

@@ -5,6 +5,8 @@
 
     import {env} from '$env/dynamic/public';
 
+
+    import Img from '@zerodevx/svelte-img'
     export let data = {
         content: '',
         json: {
@@ -27,10 +29,24 @@
 
     let artAR;
     // this is so dumb
+    let src;
     if (data.json.blogArt.data != null) {
-        artAR = data.json.blogArt.data?.attributes.width / data.json.blogArt.data?.attributes.height * 100;
-    }
+        let width = data.json.blogArt.data?.attributes.width
+        let height = data.json.blogArt.data?.attributes.height;
 
+
+        let base = "https://cmseclub.duckarmada.com" + data.json.blogArt.data?.attributes.url
+        src = {
+            img: {src: base, w:width, h:height},
+            sources: {
+                // change this to not use query parameters so we can abuse cloudflare's cache
+                webp: [
+                    {src: base+"?format=webp", w: width},
+                    {src: base+"?format=webp&width=80", w: 80},
+                ],
+            }
+        }
+    }
 </script>
 
 <svelte:head>
@@ -44,12 +60,13 @@
     <h1 class="blog-title">{data.json.title}</h1>
     <p id="pageDate">Updated: {(data.json.updated)} </p>
     {#if data.json.blogArt.data != null}
-        <div
-                class="dynamic-aspect-ratio-box"
-                style={`padding-bottom: ${artAR}%`}
-        >
-            <img id="blog-art" src={"https://cmseclub.duckarmada.com" + data.json.blogArt.data?.attributes.url} alt="blog image">
-        </div>
+<!--        <div-->
+<!--                class="dynamic-aspect-ratio-box"-->
+<!--                style={`padding-bottom: ${artAR}%`}-->
+<!--        >-->
+<!--            <img id="blog-art" src={"https://cmseclub.duckarmada.com" + data.json.blogArt.data?.attributes.url} alt="blog image">-->
+<!--        </div>-->
+       <Img {src}/>
     {/if}
     <div style="padding-bottom: 2rem">{@html data.content}</div>
     <hr style="border-top: 1px solid var(--fontColorBase);padding-bottom: 1rem ">
