@@ -47,7 +47,7 @@
 		font-family: Menlo,monospace;
 		font-weight: 500;
 		font-size: 18px;
-		color: #4edd8b;
+		color: #eeaf31;
 		margin-top: auto;
 		margin-bottom: auto;
 		margin-left: auto;
