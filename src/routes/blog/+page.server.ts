@@ -10,7 +10,7 @@ import { env } from '$env/dynamic/private';
 // }
 //write the commented function but correctly typed with pageServerLoad
 export const load: PageServerLoad = async ({ params }) => {
-	const posts = await fetch("http://192.168.1.208:24571/api/posts"); // THIS IS WHERE WE GET STRAPI HOST
+	const posts = await fetch(env.CMS_HOST + "/api/posts"); // THIS IS WHERE WE GET STRAPI HOST
 
 	let json = await posts.json();
 

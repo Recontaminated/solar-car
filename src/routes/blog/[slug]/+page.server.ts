@@ -9,7 +9,7 @@ export const load: PageServerLoad = async ({ params }) => {
 // console.log(params)
 // console.log(params.slug)
     // // Now, we'll fetch the blog post from Strapi
-    const res = await fetch(`http://192.168.1.208:24571/api/posts?filters[slug][$eq]=${params.slug}&populate=*`);
+    const res = await fetch(env.CMS_HOST+`/api/posts?filters[slug][$eq]=${params.slug}&populate=*`);
 
     let json = await res.json();
 
